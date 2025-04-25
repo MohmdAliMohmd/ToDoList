@@ -273,6 +273,7 @@ namespace ToDoList
 
                     Console.WriteLine("\nPress any key to continue...");
                     Console.ReadKey();
+                    break;
                 }
             }
 
