@@ -12,6 +12,8 @@
   <a href="README.md">English</a> • 
   <a href="README_AR.md">العربية</a>
 </p>
+> **Language Notice**: 
+> [View in English (الإنجليزية)](README.md) | 
 
 # تطبيق قائمة المهام (ToDo List)
 ...
