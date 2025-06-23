@@ -21,7 +21,7 @@
 1. **المتطلبات**: .NET 6.0+ Runtime
 2. استنساخ المستودع:
    ```bash
-   git clone https://github.com/yourusername/todo-list-console.git
+   git clone https://github.com/MohmdAliMohmd/todo-list-console.git
    ```
 3. الانتقال إلى مجلد المشروع
 4. تشغيل التطبيق:
