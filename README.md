@@ -1,8 +1,7 @@
 
 > **Language Notice**: 
 > [View in Arabic (العربية)](README_AR.md) | 
-> This repo supports automatic language redirection when 
-> visited through our [website](https://your-username.github.io/your-repo/)
+
 ## ToDo List Console Application
 
 A simple console-based task management system built with C# that allows you to create, edit, track, and delete tasks efficiently.
