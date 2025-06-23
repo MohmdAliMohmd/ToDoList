@@ -1,7 +1,4 @@
-```
 
-### Arabic README.md (الوثائق باللغة العربية)
-```markdown
 <details>
 <summary>بالعربية</summary>
 <div dir="rtl">
