@@ -1,41 +1,33 @@
-# ToDoList Console Application
+### English README.md
+```markdown
+# ToDo List Console Application
 
-A simple console-based ToDo List application for managing tasks. Built with C# and .NET.
+A simple console-based task management system built with C# that allows you to create, edit, track, and delete tasks efficiently.
 
 ## Features
+- 📝 **Add new tasks** with descriptions
+- ✏️ **Edit existing task** descriptions
+- ✅ **Mark tasks as completed**
+- 🗑️ **Delete tasks** from the list
+- 📋 **View all tasks** with completion status
+- 🔢 **Automatic task ID generation**
+- 🎨 **Color-coded messages** (success/error)
+- 🔄 **Persistent task management** during session
 
-- **Add New Tasks**: Create tasks with descriptions.
-- **Edit Existing Tasks**: Modify task descriptions.
-- **Mark Tasks as Completed**: Track completion status with checkmarks.
-- **Delete Tasks**: Remove tasks from the list.
-- **View Tasks**: See all tasks with their IDs, descriptions, and completion status.
-- **Error Handling**: Input validation and user-friendly error/success messages.
-
-## Installation
-
-1. **Prerequisites**:  
-   Ensure [.NET SDK](https://dotnet.microsoft.com/download) is installed.
-
-2. **Clone the Repository**:  
+## How to Run
+1. **Requirements**: .NET 6.0+ Runtime
+2. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ToDoList.git
-   cd ToDoList
+   git clone https://github.com/MohmdAliMohmd/todo-list-console.git
    ```
-
-3. **Run the Application**:  
+3. Navigate to project directory
+4. Run the application:
    ```bash
    dotnet run
    ```
 
-## Usage
-
-### Main Menu
+## Usage Guide
 ```
-================ Your Todolist:================
-1[✓] Sample Task 1
-2[ ] Sample Task 2
-==============================================
-
 Todo List Application:
 1. Add Task
 2. Edit Task
@@ -43,50 +35,24 @@ Todo List Application:
 4. Delete Task
 5. Exit
 ```
+- Use numeric keys (1-5) to navigate
+- Follow on-screen prompts for each operation
+- Tasks display with ID and completion marker (✓ = completed)
 
-### Operations
-1. **Add Task**  
-   - Enter a task description (non-empty).  
-   - Success: Green confirmation message.  
+## Example
+```
+================ Your Todolist:================
+1[ ] Buy groceries
+2[✓] Finish project report
+3[ ] Call client
+==============================================
+```
 
-2. **Edit Task**  
-   - Enter the task ID to edit.  
-   - Provide a new description.  
-   - Error if ID is invalid or description is empty.  
+## Contribution
+Contributions welcome! Please submit issues or pull requests for:
+- Bug fixes
+- New features
+- Documentation improvements
 
-3. **Mark Task as Completed**  
-   - Enter the task ID to mark.  
-   - Completed tasks show `✓`.  
-
-4. **Delete Task**  
-   - Enter the task ID to delete.  
-
-5. **Exit**  
-   - Close the application.  
-
-## Code Structure
-
-### Classes
-1. **`Task`**  
-   - Properties: `ID`, `Description`, `IsCompleted`.  
-   - Constructor initializes task details.  
-
-2. **`TodoList`**  
-   - Manages a list of `Task` objects.  
-   - Core Methods:  
-     - `_AddTask()`: Validates and adds tasks.  
-     - `_ShowEditTaskWindow()`: Edits task descriptions.  
-     - `_ShowMarkAsCompletedScreen()`: Updates completion status.  
-     - `_ShowDeleteTaskScreen()`: Removes tasks.  
-     - `_ShowToDoList()`: Displays all tasks.  
-
-### Key Methods
-- **`_GetTaskIdFromUser()`**: Validates task ID input.  
-- **`_PerformMainMenuOptions()`**: Executes operations based on user choice.  
-- **`_ShowErrorMessage()` / `_ShowSuccessMessage()`**: Color-coded console feedback.  
-
-## Contributing
-Contributions are welcome!  
-1. Fork the repository.  
-2. Create a feature branch.  
-3. Submit a pull request.
+## License
+[MIT License](LICENSE)
