@@ -1,22 +1,9 @@
-<div dir="rtl">
 
-<!-- Language Selector -->
-<p align="left">
-  <a href="README.md">
-    <img src="https://img.shields.io/badge/English-0078D7?style=for-the-badge&logo=google-translate&logoColor=white" alt="English">
-  </a>
-</p>
-
-<!-- Optional: Text alternative -->
-<p align="center">
-  <a href="README.md">English</a> • 
-  <a href="README_AR.md">العربية</a>
-</p>
 > **Language Notice**: 
 > [View in English (الإنجليزية)](README.md) | 
 
 # تطبيق قائمة المهام (ToDo List)
-...
+
 <details>
 <summary>بالعربية</summary>
 <div dir="rtl">
