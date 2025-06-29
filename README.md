@@ -15,6 +15,7 @@ A simple console-based task management system built with C# that allows you to c
 - 🔢 **Automatic task ID generation**
 - 🎨 **Color-coded messages** (success/error)
 - 🔄 **Persistent task management** during session
+![Analog Clock Screenshot](images/TaskManagementFeatures.png) 
 
 ## How to Run
 1. **Requirements**: .NET 6.0+ Runtime
